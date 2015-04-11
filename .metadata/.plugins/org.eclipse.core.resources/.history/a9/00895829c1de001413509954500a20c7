@@ -1,0 +1,21 @@
+package second;
+
+public class Solution {
+	public void rotate(int[] a, int k) {
+		int N = a.length;
+	    k = k%N;
+	    int idx = N-1;
+	    int temp = N-1;
+	    for (int s = 0; s < N-1; s++)
+	    {
+	            idx = (idx+k)%N;            
+	            if(temp == idx)
+	            {
+	                temp = temp-1;
+	                idx = temp;
+	                continue;
+	            }
+	            swap(a,temp,idx);           
+	    }
+	}
+}

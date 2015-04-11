@@ -1,0 +1,11 @@
+
+public class Solution {
+	public void merge(int  A[], int m, int B[], int n) {
+		int[] temp = new int[m + n];
+		int x = 0;
+		int y = 0;
+		for (int i = 0; i < m + n; i++) {
+			
+		}
+	}
+}

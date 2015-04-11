@@ -1,0 +1,14 @@
+public class Solution {
+	public void rotate(int[] nums, int k) {
+		k = k % nums.length;
+	}
+	
+	public static void main(String[] args) {
+		int[] number = {1};
+		Solution solution = new Solution();
+		solution.rotate(number, 1);
+		for (int x : number) {
+			System.out.println(x);
+		}
+	}
+}

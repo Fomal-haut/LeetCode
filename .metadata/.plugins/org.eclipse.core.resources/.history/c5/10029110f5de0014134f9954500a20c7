@@ -1,0 +1,14 @@
+public class Solution {
+	public void rotate(int[] nums, int k) {
+		int[] copyNum = new int[k + 1];
+		for (int i=0; i<=k; i++) {
+			copyNum[i] = nums[i];
+		}
+		for (int j=k+1; j<nums.length; j++) {
+			nums[j-k-1] = nums[j];
+		}
+		for (int m=0; m <copyNum.length) {
+			
+		}
+	}
+}

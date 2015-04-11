@@ -1,0 +1,31 @@
+
+public class Solution {
+	public void merge(int  A[], int m, int B[], int n) {
+		int[] temp = new int[m + n];
+		int x = 0;
+		int y = 0;
+		for (int i = 0; i < m + n; i++) {
+			if (A[x] <= B[y]) {
+				temp[i] = A[x];
+				x++;
+			} else {
+				temp[i] = B[y];
+				y++;
+			}
+			if (x == m-1) {
+				copyArray(B, y, temp, i);
+				break;
+			}
+			if (y == n-1) {
+				copyArray(A, x, temp, i);
+				break;
+			}
+		}
+	}
+	
+	public void copyArray(int[] src, int srcOffSet, int[] dst, int dstOffSet) {
+		for (int i=0; i<src.length - srcOffSet; i++) {
+			dst[dstOffSet + i] = src[srcOffSet + i];
+		}
+	}
+}
