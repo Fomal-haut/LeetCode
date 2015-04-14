@@ -1,0 +1,31 @@
+
+public class Solution {
+	public int uniquePaths(int m, int n) {
+		//C(n-1, m-1)
+		if (n > m) {
+			int dividend = cal(n);
+			int divider = cal(n-m);
+		} else {
+			int dividend = cal(m);
+			int divider = cal(m-n);
+			
+		}
+		
+		
+		return dividend/divider;
+	}
+	
+	public int cal(int num) {
+		if (num == 0) return 1;
+		int result = 1;
+		for (int i = 1; i <= num; i++) {
+			result = result * i;
+		}
+		return result;
+	}
+	
+	public static void main(String[] args) {
+		Solution solution = new Solution();
+		System.out.println(solution.uniquePaths(1, 1));
+	}
+}
