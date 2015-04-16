@@ -1,0 +1,7 @@
+public class Solution {
+	public boolean exist(char[][] board, String word) {
+		int width = board[0].length;
+		int height = board.length;
+		boolean[][] isOccupied = new boolean[height][width];
+	}
+}
