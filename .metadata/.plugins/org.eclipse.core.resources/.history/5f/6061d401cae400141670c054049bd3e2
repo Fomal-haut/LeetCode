@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+	public List<Integer> getRow(int rowIndex) {
+		List<Integer> result = new ArrayList<> ();
+	}
+	
+	public int cal (int n, int k) {
+		
+		return 1;
+	}
+}
