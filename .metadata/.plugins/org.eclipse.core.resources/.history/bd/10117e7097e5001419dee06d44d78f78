@@ -1,0 +1,30 @@
+import java.util.List;
+
+
+public class Solution {
+	public int maxResult = 0;
+	public int maxArea(List<Integer> height) {
+		int x = 0;
+		int y = height.size() - 1;
+		int maxResult = calcArea(x,y,height);
+		
+		while (x < y) {
+			if (calcArea(x + 1, y, height) > maxResult) {
+				
+			} else if (calcArea(x, y - 1, height) > maxResult) {
+
+			}
+		}
+	}
+	
+	public void calcArea(int x, int y, List<Integer> height) {
+		int temp = (y-x) * getMin(height.get(x), height.get(y));
+		if (temp > maxResult) {
+			maxResult = temp;
+		}
+	}
+	
+	public int getMin(int x, int y) {
+		return x <= y ? x : y;
+	}
+}
