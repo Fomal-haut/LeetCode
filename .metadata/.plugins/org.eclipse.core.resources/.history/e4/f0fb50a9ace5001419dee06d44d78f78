@@ -1,0 +1,6 @@
+public class Solution {
+	public int threeSumClosest(int[] num, int target) {
+		int result;
+		int diff;
+	}
+}
