@@ -1,0 +1,17 @@
+package main;
+
+import entity.Duck;
+import entity.FalseDuck;
+import entity.TrueDuck;
+
+public class MainStage {
+	public static void main(String[] args) {
+		Duck falseDuck = new FalseDuck();
+		Duck trueDuck = new TrueDuck();
+		
+		falseDuck.display();
+		trueDuck.display();
+		
+		
+	}
+}

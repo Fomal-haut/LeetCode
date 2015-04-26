@@ -1,0 +1,8 @@
+
+public class FalseDuck extends duck{
+
+	@Override
+	public void display() {
+		System.out.println();
+	}
+}

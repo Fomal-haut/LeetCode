@@ -1,0 +1,10 @@
+package main;
+
+import entity.Duck;
+import entity.FalseDuck;
+
+public class MainStage {
+	public static void main(String[] args) {
+		Duck FalseDuck = new FalseDuck();
+	}
+}

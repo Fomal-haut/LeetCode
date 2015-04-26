@@ -1,0 +1,14 @@
+import strategy.FlyBehavior;
+import strategy.QuackBehavior;
+
+
+public abstract class duck {
+	FlyBehavior flyBehavior;
+	QuackBehavior quackBehavior;
+	
+	public duck() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

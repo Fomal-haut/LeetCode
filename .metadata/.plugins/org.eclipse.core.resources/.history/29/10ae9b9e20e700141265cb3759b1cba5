@@ -1,0 +1,7 @@
+import strategy.FlyBehavior;
+
+
+public abstract class duck {
+	FlyBehavior flyBehavior;
+	
+}

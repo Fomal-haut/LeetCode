@@ -1,0 +1,9 @@
+
+public class TrueDuck extends duck {
+
+	@Override
+	public void display() {
+
+	}
+
+}

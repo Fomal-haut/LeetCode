@@ -1,0 +1,13 @@
+package entity;
+
+public class FalseDuck extends Duck{
+	
+	public FalseDuck() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public void display() {
+		System.out.println("I'm a false duck!");
+	}
+}

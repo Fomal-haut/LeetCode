@@ -1,0 +1,12 @@
+
+public class TrueDuck extends duck {
+	
+	public TrueDuck() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void display() {
+
+	}
+
+}

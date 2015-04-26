@@ -1,6 +1,0 @@
-public class Solution {
-	public int uniquePathsWithObstacles(int[][] obstacleGrid) {
-		int hsize = obstacleGrid[0].length;
-		int psize = obstacleGrid.length / hsize;
-	}
-}
