@@ -1,0 +1,17 @@
+public class Solution {
+	public static int minIndex;
+	public static int maxIndex;
+	
+	public int[] searchRange(int[] nums, int target) {
+		minIndex = nums.length;
+		maxIndex = -1;
+	}
+	
+	public void binarySearch(int firstIndex, int lastIndex, int target, int[] nums) {
+		if (firstIndex > lastIndex) return;
+		int mid = firstIndex + (lastIndex - firstIndex) /2;
+		if (nums[mid] == target) {
+			
+		}
+	}
+}

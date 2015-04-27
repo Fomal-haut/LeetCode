@@ -1,0 +1,15 @@
+public class Solution {
+	
+	public int[] searchRange(int[] nums, int target) {
+		int[] result = {nums.length, -1};
+		
+	}
+	
+	public void binarySearch(int firstIndex, int lastIndex, int target, int[] nums, int[] result) {
+		if (firstIndex > lastIndex) return;
+		int mid = firstIndex + (lastIndex - firstIndex) /2;
+		if (nums[mid] == target) {
+			
+		}
+	}
+}

@@ -1,0 +1,12 @@
+public class Solution {
+	public static int minIndex;
+	public static int maxIndex;
+	
+	public int[] searchRange(int[] nums, int target) {
+		
+	}
+	
+	public int binarySearch(int firstIndex, int lastIndex, int target) {
+		
+	}
+}

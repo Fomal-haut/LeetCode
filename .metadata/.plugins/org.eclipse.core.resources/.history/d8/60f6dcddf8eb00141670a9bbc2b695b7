@@ -1,0 +1,15 @@
+public class Solution {
+	public void nextPermutation(int[] num) {
+		for (int j=num.length-1; j>0; j--) {
+			for (int k=j-1; k>=0; k--) {
+				if (num[j] > num[k]) {
+					num[k] = num[j] + num[k];
+					num[j] = num[k] - num[j];
+					num[k] = num[k] - num[j];
+					return;
+				}
+			}
+		}
+		
+	}
+}
