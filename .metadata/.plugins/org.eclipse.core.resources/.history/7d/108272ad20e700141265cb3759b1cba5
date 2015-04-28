@@ -1,8 +1,0 @@
-import strategy.FlyBehavior;
-import strategy.QuackBehavior;
-
-
-public abstract class duck {
-	FlyBehavior flyBehavior;
-	QuackBehavior quackBehavior;
-}

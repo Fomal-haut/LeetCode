@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+	
+	public List<List<Integer>> combinationSum(int[] candidates, int target) {
+		List<List<Integer>> result = new ArrayList<List<Integer>> ();
+		index = candidates.length - 1;
+		index2 = 0;
+		int[] factors = new int[index];
+		for (int i=0; i<factors.length; i++) {
+			factors[i] = -1;
+		}
+		
+		int sum = 0;
+		
+		return result;
+	}
+	
+	public void Calc(int[] candidates, int target, int idnex) {
+		
+	}
+}

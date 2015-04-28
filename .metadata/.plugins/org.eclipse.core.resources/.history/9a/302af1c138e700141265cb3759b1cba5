@@ -1,9 +1,0 @@
-package entity;
-
-public class FalseDuck extends Duck{
-
-	@Override
-	public void display() {
-		System.out.println("I'm a false duck!");
-	}
-}

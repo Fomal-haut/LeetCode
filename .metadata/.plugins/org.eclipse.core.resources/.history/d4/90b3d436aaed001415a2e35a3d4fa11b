@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+	public List<List<Integer>> result;
+	public List<Integer> solution; 
+	
+	public List<List<Integer>> combinationSum(int[] candidates, int target) {
+		result = new ArrayList<List<Integer>> ();
+		solution = new ArrayList<Integer> ();
+		
+		Calc(candidates, target, 0);
+		
+		return result;
+	}
+	
+	public void Calc(int[] candidates, int target, int index) {
+		if (target == 0) {
+			result.add(new ArrayList<Integer> (solution));
+		}
+		if (target < 0) {
+			return;
+		}
+		
+		while (index < candidates.length) {
+			solution.add(candidates[index]);
+			
+		}
+	}
+}

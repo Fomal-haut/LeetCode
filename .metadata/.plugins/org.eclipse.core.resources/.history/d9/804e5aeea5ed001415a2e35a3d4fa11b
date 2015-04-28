@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+	public List<List<Integer>> combinationSum(int[] candidates, int target) {
+		List<List<Integer>> result = new ArrayList<List<Integer>> ();
+		int index = candidates.length - 1;
+		int index2 = 0;
+		while (index >= 0) {
+			
+		}
+		
+		
+		return result;
+	}
+}

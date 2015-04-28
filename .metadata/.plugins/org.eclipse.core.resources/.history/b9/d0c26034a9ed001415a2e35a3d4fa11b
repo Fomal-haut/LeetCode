@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+	
+	public List<List<Integer>> combinationSum(int[] candidates, int target) {
+		List<List<Integer>> result = new ArrayList<List<Integer>> ();
+		List<Integer> solution = new ArrayList<Integer> ();
+		return result;
+	}
+	
+	public void Calc(int[] candidates, int target, int idnex) {
+		
+	}
+}
