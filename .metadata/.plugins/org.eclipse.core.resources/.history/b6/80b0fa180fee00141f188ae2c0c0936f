@@ -3,9 +3,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Solution {
-	//感觉一般回溯都是用递归写比较方便
-	//会纪录一个步step，来纪录递归的深度，方便回溯，这里就是Calc的index
-	//如果需要纪录路径，则需要一个容器，这里就是solution，并且在回溯的时候还需要对其进行类似出栈入栈的操作
 	public List<List<Integer>> result;
 	public List<Integer> solution; 
 	
