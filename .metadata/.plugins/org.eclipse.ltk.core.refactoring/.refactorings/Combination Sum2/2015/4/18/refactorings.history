@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;cands&apos; in &apos;Solution.combinationSum2(...)&apos; to &apos;num&apos;&#x0A;- Original project: &apos;Combination Sum2&apos;&#x0A;- Original element: &apos;Solution.combinationSum2(int[], int).cands&apos;&#x0A;- Renamed element: &apos;cands&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;cands&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Solution.java[Solution~combinationSum2~\[I~I@cands!146!156!152!156!\[I!0!true" name="num" references="true" stamp="1430317794810" version="1.0"/>
+</session>
