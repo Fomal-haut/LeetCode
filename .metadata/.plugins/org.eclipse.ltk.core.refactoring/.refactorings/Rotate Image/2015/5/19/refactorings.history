@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Solution.rotate(...)&apos; to &apos;rotateOnce&apos;&#x0A;- Original project: &apos;Rotate Image&apos;&#x0A;- Original element: &apos;Solution.rotate(...)&apos;&#x0A;- Renamed element: &apos;Solution.rotateOnce(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;rotate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Solution.java[Solution~rotate~I~\[\[I" name="rotateOnce" references="true" stamp="1431163284659" version="1.0"/>
+</session>
