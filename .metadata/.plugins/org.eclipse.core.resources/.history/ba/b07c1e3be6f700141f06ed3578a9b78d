@@ -1,0 +1,8 @@
+public class Solution {
+	public boolean[] store;
+	public boolean canJump(int[] nums) {
+		store = new boolean[nums.length];
+		
+		
+	}
+}

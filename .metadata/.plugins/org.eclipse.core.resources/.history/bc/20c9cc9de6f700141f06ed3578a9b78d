@@ -1,0 +1,13 @@
+public class Solution {
+	public boolean[] store;
+	public boolean canJump(int[] nums) {
+		store = new boolean[nums.length];
+		
+		for (int i=0; i< nums.length; i++) {
+			if (store[i] == true) {
+				continue;
+			}
+		}
+		return store[nums.length - 1];
+	}
+}
