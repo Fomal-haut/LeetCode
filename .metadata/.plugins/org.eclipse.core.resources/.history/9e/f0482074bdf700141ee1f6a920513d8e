@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Solution {
+	boolean [][] isOccupied;
+	int direction = 1;
+	
+	public List<Integer> spiralOrder(int [][] matrix) {
+		List<Integer> result = new ArrayList<Integer> ();
+		isOccupied = new boolean[matrix.length][matrix[0].length];
+		int x = 0;
+		
+	}
+}

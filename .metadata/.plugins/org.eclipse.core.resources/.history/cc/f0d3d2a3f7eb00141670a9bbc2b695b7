@@ -1,7 +1,0 @@
-public class Solution {
-	public void nextPermutation(int[] num) {
-		for (int j=num.length-1; j>0; j--) {
-			
-		}
-	}
-}
