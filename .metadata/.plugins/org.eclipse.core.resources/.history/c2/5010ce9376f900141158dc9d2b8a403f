@@ -1,0 +1,11 @@
+
+public class Solution {
+	int[][] f;
+	public int minPathSum(int [][] grid) {
+		int x = grid.length;
+		int y = grid[0].length;
+		
+		f = new int[x][y];
+		
+	}
+}
