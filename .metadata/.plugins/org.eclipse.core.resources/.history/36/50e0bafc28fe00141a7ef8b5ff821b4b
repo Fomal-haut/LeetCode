@@ -1,0 +1,8 @@
+public class Solution {
+	public boolean searchMatrix(int[][] matrix, int target) {
+		int rowSize = matrix.length;
+		int columnSize = matrix[0].length;
+		
+		return true;
+	}
+}
