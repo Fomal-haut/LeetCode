@@ -1,0 +1,43 @@
+public class Solution {
+	public int[][] generateMatrix(int n) {
+		int [][] matrix = new int[n][n];
+		int steps = 0;
+		int k;
+		for (int i = n; i > 0; i = i - 2) {
+			int length = i-1;
+			int index = (n - i)/2 + 1;
+			if (length == 0) {
+				matrix[index][index]=steps;
+				break;
+			}
+			
+			for (k = index; k < length + index; k++) {
+				matrix[index][k] = steps;
+				steps++;
+			}
+			
+			for (k = index; k < length + index; k++) {
+				matrix[k][index + length] = steps;
+				steps++;
+			}
+			
+			for (k = length + index; k > index; k--) {
+				matrix[index + length][k] = steps;
+				steps++;
+			}
+
+			for (k = length + index; k > index; k--) {
+				matrix[k][index] = steps;
+				steps++;
+			}
+			
+		}
+		
+		
+		return matrix;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}
