@@ -1,0 +1,24 @@
+package second;
+
+public class Solution {
+	//discussion中看到的算法
+	//和1差不多，但是这里的指针指向的是1序列的开头和2序列的开头
+	public void sortColors(int[] A) {
+	    int one = 0; 
+	    int two = 0;
+	    for(int i=0;i<A.length;i++){
+	        if(A[i]==0){
+	            A[i] = 2;
+	            A[two] = 1;
+	            A[one] = 0;
+	            one++;
+	            two++;
+	        }
+	        else if(A[i]==1){
+	            A[i] = 2;
+	            A[two] = 1;
+	            two++;
+	        }
+	    }
+	}
+}
