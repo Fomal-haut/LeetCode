@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;preorder&apos; in &apos;Solution.rebuild(...)&apos; to &apos;postorder&apos;&#x0A;- Original project: &apos;Construct Binary Tree from Inorder and Postorder&apos;&#x0A;- Original element: &apos;Solution.rebuild(int[], int, int, int[], int, int).preorder&apos;&#x0A;- Renamed element: &apos;preorder&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;preorder&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Solution.java[Solution~rebuild~\[I~I~I~\[I~I~I@preorder!163!176!169!176!\[I!0!true" name="postorder" references="true" stamp="1433686075978" version="1.0"/>
+</session>
