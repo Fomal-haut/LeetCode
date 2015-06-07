@@ -1,0 +1,36 @@
+
+public class Solution {
+
+	public class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
+	private TreeNode rebuild(int[] preorder, int pstart, int pend, int[] inorder, int istart, int iend) {
+		int root = preorder[pstart];
+		TreeNode rootNode = new TreeNode(root);
+		if (pend - pstart == 0) {
+			return rootNode;
+		}
+		
+		int position = findPos(root, inorder, istart, iend);
+		int length = position - istart;
+		
+		TreeNode leftNode = rebuild(preorder, pstart+1, pstart+1+length)
+		return null;
+	}
+
+	private int findPos(int root, int[] inorder, int istart, int iend) {
+		
+		return 0;
+	}
+
+	public TreeNode buildTree(int[] preorder, int[] inorder) {
+		return rebuild(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
+	}
+}

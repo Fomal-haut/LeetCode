@@ -1,0 +1,24 @@
+
+
+public class Solution {
+	
+	public class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+	
+	private TreeNode rebuild() {
+		
+		return null;
+	}
+	
+	public TreeNode buildTree(int[] preorder, int[] inorder) {
+		
+		return null;
+	}
+}
