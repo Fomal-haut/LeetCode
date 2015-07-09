@@ -1,3 +1,4 @@
+breadcrumb.org.eclipse.jdt.ui.JavaPerspective=true
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Solution"><rhs name\="Solution"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="strategy.QuackBehavior"><rhs name\="strategy.Squeak"/><rhs name\="strategy.MuteQuack"/></lhs><lhs name\="entity.Duck"><rhs name\="entity.TrueDuck"/></lhs><lhs name\="strategy.FlyBehavior"><rhs name\="strategy.FlyNoWay"/></lhs></history>
 content_assist_number_of_computers=13
 content_assist_proposals_background=255,255,255
