@@ -1,0 +1,7 @@
+public class Solution {
+	public int maxProfit(int[] prices) {
+		int[] pre = new int[prices.length];
+		int[] post = new int[prices.length];
+		
+	}
+}
