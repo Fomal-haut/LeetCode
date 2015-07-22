@@ -47,3 +47,29 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2015-04-22 14:43:50.489
 !MESSAGE System property socksProxyPort has been set to 1080 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2015-07-22 10:39:50.924 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/zhufeng/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/zhufeng/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-22 10:39:58.402
+!MESSAGE System property socksProxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-22 10:39:58.489
+!MESSAGE System property socksProxyPort has been set to 1080 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2015-07-22 12:01:39.672 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/zhufeng/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/zhufeng/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-22 12:01:44.667
+!MESSAGE System property socksProxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-22 12:01:44.670
+!MESSAGE System property socksProxyPort has been set to 1080 by an external source. This value will be overwritten using the values from the preferences
