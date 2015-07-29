@@ -1,0 +1,2 @@
+采用了Majority Voting Algorithm
+理解的重点是，当计数器为0的时候，超过3分之1的数，肯定也存在于后面的list中，所以前面的list等于作废
